@@ -1,0 +1,99 @@
+
+.board{
+
+      height: 50%;
+      width: 50%;
+      overflow:hidden;
+      display:inline-block;
+      float: left;
+      margin: 8%;
+
+}
+
+nav{
+
+  background-color:blue;
+}
+
+a{
+  color:red;
+  background:green;
+  padding:35px;
+  text-decoration:none;
+  display:inline-block;
+  float:left;
+
+}
+
+a:hover{
+
+  background-color:#ffbf00;
+
+
+}
+.card{
+
+      height:200px;
+      width:150px;
+      background-color:yellow;
+      border:4px solid black;
+      margin:5px;
+      border-radius:10px;
+
+}
+
+
+
+h1{
+  color:white;
+}
+
+h2{
+  color:red;
+}
+
+
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+#first{
+
+  clear:left;
+  float:left;
+
+}
+#second{
+
+  float:left;
+
+}
+third{
+
+  clear:left;
+  float:left;
+
+}
+
+#fourth{
+
+  float:left;
+
+}
+
+span{
+
+    color:red;
+
+}
+
+footer{
+  clear:both;
+  text-align: center;
+  background: white;
+}
+
